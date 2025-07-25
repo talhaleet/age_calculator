@@ -12,6 +12,7 @@
     background: linear-gradient(100deg,#4203a9,#90bafc);
     color: #fff;
     padding: 10px;
+    overflow: hidden;
 
 }
 .calculator{
@@ -95,9 +96,13 @@
       .result {
         font-size: 18px;
       }
-      #date{
-        margin-left: 25px;
+      .calculator{
+        padding: 15px;
 
       }
+      #date{
+        margin-left: 15px;
+      }
+      
 
     }
