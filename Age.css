@@ -70,14 +70,21 @@
     cursor: pointer;
     height: auto;
 }
- @media (max-width: 480px) {
+ @media (max-width: 750px) {
+    
       .calculator h1 {
         font-size: 32px;
       }
-
+     
+    .calculator{
+         margin-top: 150px;
+    }
       .input-box {
         flex-direction: column;
         gap: 20px;
+        padding: 20px;
+        margin-right: 50px;
+        justify-content: center;
       }
 
       .input-box input,
@@ -88,4 +95,9 @@
       .result {
         font-size: 18px;
       }
+      #date{
+        margin-left: 25px;
+
+      }
+
     }
