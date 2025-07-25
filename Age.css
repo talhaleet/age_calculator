@@ -70,3 +70,22 @@
     cursor: pointer;
     height: auto;
 }
+ @media (max-width: 480px) {
+      .calculator h1 {
+        font-size: 32px;
+      }
+
+      .input-box {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .input-box input,
+      .input-box button {
+        width: 100%;
+      }
+
+      .result {
+        font-size: 18px;
+      }
+    }
